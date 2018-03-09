@@ -1,0 +1,23 @@
+.breadcrumb {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	> li {
+		display: inline-block;
+		a {
+			text-decoration: none;
+		}
+		&:after {
+			content: '>';
+			margin-left: 5px;
+		}
+		&:last-child {
+			&:after {
+				content: '';
+			}
+		}
+		&.current {
+			//font-weight: 700;
+		}
+	}
+}

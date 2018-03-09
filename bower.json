@@ -1,0 +1,21 @@
+{
+  "name": "_bourbon",
+  "description": "_bourbon",
+  "main": "gulpfile.js",
+  "authors": [
+    "Marcel Badua"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "TGM-Plugin-Activation": "https://github.com/TGMPA/TGM-Plugin-Activation.git#^2.6.1"
+  }
+}

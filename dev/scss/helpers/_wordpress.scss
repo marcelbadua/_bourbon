@@ -1,0 +1,57 @@
+.alignleft,
+img.alignleft {
+    display: inline;
+    float: left;
+    margin-right: $base-spacing;
+}
+.alignright,
+img.alignright {
+    display: inline;
+    float: right;
+    margin-left: $base-spacing;
+}
+
+.aligncenter,
+img.aligncenter {
+    display: block;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#searchform {
+  position: relative;
+
+  margin-bottom: $base-spacing;
+  
+  #s {
+    height: 2.2rem;
+    border-radius: $base-border-radius 0 0 $base-border-radius;
+    border-right: 0;
+    margin-bottom: 0;
+  }
+  
+  #searchsubmit {
+
+    border: $base-border;
+
+    border-radius: 0 $base-border-radius $base-border-radius 0;
+    border-left: 0;
+
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 100%;
+    background-color: $base-background-color;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0;
+    padding: .5rem;
+    img {
+      max-width: 100%;
+      height: auto;
+      //opacity: 0.5;
+    }
+  }
+}

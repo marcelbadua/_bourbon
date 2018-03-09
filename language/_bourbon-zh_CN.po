@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: home.php:18
+msgid "View Post"
+msgstr "查看帖子"
+
+#: template/entry-footer.php:6
+msgid "Categories:"
+msgstr "分类："
+
+#: includes/breadcrumb.php:11
+msgid "Home"
+msgstr "家"
+
+#: includes/breadcrumb.php:12
+msgid "Articles"
+msgstr "文章"

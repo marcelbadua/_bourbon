@@ -1,0 +1,15 @@
+#: home.php:18
+msgid "View Post"
+msgstr ""
+
+#: template/entry-footer.php:6
+msgid "Categories:"
+msgstr ""
+
+#: includes/breadcrumb.php:11
+msgid "Home"
+msgstr ""
+
+#: includes/breadcrumb.php:12
+msgid "Articles"
+msgstr ""

@@ -1,0 +1,134 @@
+$danger-color: red;
+
+.gform_wrapper {
+	margin-bottom: $base-spacing;
+	.hide-label {
+		.gfield_label {
+			display: none;
+		}
+	}
+}
+.validation_error, .gfield_creditcard_warning_message {
+	color: #FFFFFF;
+	padding: $small-spacing $base-spacing;
+	border: 1px solid $danger-color;
+	margin-bottom: $base-spacing;
+	background-color: lighten($danger-color, 20%);
+	border-radius: $base-border-radius;
+	font-size: modular-scale(-1);
+}
+.gform_validation_container {
+	display: none!important;
+}
+
+.gform_heading {
+	margin-bottom: $base-spacing;
+}
+
+.gform_footer.left_label {
+	padding-left: 20%;
+}
+
+
+.gform_fields {
+	margin-top: 0;
+	padding: 0;
+	list-style: none;
+	
+	&.left_label {
+		.gfield {
+			display: flex;
+			.gfield_label {
+				flex-basis: 20%;
+				text-align: right;
+				padding-right: $base-spacing;
+			}
+			.ginput_container {
+				flex-basis: 70%;	
+			}
+		}
+	}
+
+	.gfield {
+		@include clearfix;
+		margin-bottom: $small-spacing;
+		.gfield_required {
+			color: $danger-color;
+			margin-left: $small-spacing/3;
+		}
+		.ginput_complex {
+			@include clearfix;
+			> span {
+				
+			    &.ginput_full {
+			    	.ginput_cardinfo_left,.ginput_cardinfo_right {
+			    		select, input {
+			    			width: 42%;
+			    			margin-right: 15px;
+			    			display: inline-block;
+			    			margin-bottom: 0;
+			    		}
+			    		.ginput_card_security_code_icon {
+		    				display: inline-block;
+		    				&:before {
+		    					font-family: "FontAwesome";
+		    					line-height: 1;
+		    					content: "\f09d";
+		    					font-size: 24px;
+		    				}
+		    			}
+			    	}
+			    }
+			    input, select {
+			    	margin-bottom: 0;
+			    }
+			    label {
+			    	font-size: 0.8em;
+			    	font-weight: 400;
+			    }
+			}
+			
+		}
+		&.gfield_error {
+			select, input {
+				border-color: $danger-color;
+			}
+			.validation_message, .gfield_label {
+				color: $danger-color;
+				font-size: modular-scale(-1);
+			}
+		}
+		.gform_card_icon_container {
+			.gform_card_icon {
+				display: inline-block;
+				font-size: 0;
+				&:before {
+					font-family: "FontAwesome";
+					font-size: 24px;
+					margin-right: 5px;
+					 display: inline-block; 
+				}
+				&.gform_card_icon_amex{
+					&:before {
+						content: "\f1f3";
+					}
+				}
+				&.gform_card_icon_discover {
+					&:before {
+						content: "\f1f2";
+					}
+				}
+				&.gform_card_icon_mastercard {
+					&:before {
+						content: "\f1f1";
+					}
+				}
+				&.gform_card_icon_visa {
+					&:before {
+						content: "\f1f0";
+					}
+				}
+			} 
+		}
+	}	
+}

@@ -1,0 +1,52 @@
+.widget_site_information {
+        $icons: (
+            ("dsi_address","'\f041'"),
+            ("dsi_email","'\f0e0'"),
+            ("dsi_phone","'\f098'"),
+            ("dsi_mobile","'\f098'")
+        );
+        @each $name, $content in $icons {
+            .#{$name}  {
+                padding-left: $base-spacing;
+                position: relative;
+                &:before {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    font-family: 'FontAwesome';
+                    content: #{$content};
+                    padding-right: 1px;
+                }
+            }
+        }
+
+        $social: (
+            ("dsi_linkedin", "#007bb5", "'\f08c'"),
+            ("dsi_facebook", "#3b5998", "'\f082'"),
+            ("dsi_twitter", "#55acee", "'\f081'"),
+            ("dsi_instagram", "#e95950", "'\f16d'"),
+            ("dsi_google_plus", "#dd4b39", "'\f0d4'"),
+            ("dsi_youtube", "#bb0000", "'\f166'")
+        );
+        @each $name, $color, $content in $social {
+            .#{$name}  {
+                display: inline-block;
+                > a {
+                    color: #5e6f7a;
+                    text-decoration: none;
+                    margin-right: $small-spacing;
+                    span {
+                        display: none;
+                    }
+                    &:before {
+                        font-family: "FontAwesome";
+                        content: #{$content};
+                        font-size: 2rem;
+                    }
+                    &:hover {
+                        color: #{$color};
+                    }
+                }
+            }
+        }
+    }
