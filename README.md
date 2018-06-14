@@ -15,6 +15,25 @@
       |     +-- js
       |     +-- img
 
+## Library & Frameworks Used
+
+1. npm
+1. gulp
+1. browser-sync
+1. gulp-concat
+1. gulp-cssmin
+1. gulp-imagemin
+1. gulp-jquery-closure
+1. gulp-load-plugins
+1. gulp-markdown-docs
+1. gulp-notify
+1. gulp-plumber
+1. gulp-sass
+1. gulp-uglify
+1. gulp-util
+1. node-bourbon
+1. node-normalize-scss
+
 ## Prerequistes
 
 1. A local server to build your theme (MAMP, WAMP, XAMPP, Vagrant) - its best pracice to work on a local copy/clone of your website.
