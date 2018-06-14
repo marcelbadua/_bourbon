@@ -6,14 +6,14 @@ It uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its 
 
       +-- gulpfile.js   # gulp.js tasks
       +-- dev     # contains development codes needed to compile assets
-         |   +-- scripts
-         |   +-- scss   # SASS files
+      |     +-- scripts
+      |     +-- scss   # SASS files
             |     +-- _variables.scss    # global variables to be used (color, spacing, font, transitions)
             |     +-- styles.scss    # main SASSS file
       +-- dist    # compiled files/assets used by the theme
-         |   +-- css
-         |   +-- js
-         |   +-- img
+      |     +-- css
+      |     +-- js
+      |     +-- img
 
 ---
 
