@@ -8,6 +8,11 @@
       +-- dev     # contains development codes needed to compile assets
       |     +-- scripts
       |     +-- scss   # SASS files
+            |     +-- bitters       # bourbons predefined styles
+            |     +-- components    # predefined styles for general web components/interface
+            |     +-- helpers       # wordpress default styles and mixins
+            |     +-- layout        # general layout styles
+            |     +-- plugins       # styling for plugins
             |     +-- _variables.scss    # global variables to be used (color, spacing, font, transitions)
             |     +-- styles.scss    # main SASSS file
       +-- dist    # compiled files/assets used by the theme
