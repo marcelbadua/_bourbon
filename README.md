@@ -7,10 +7,10 @@ It uses [Gulp.js](https://gulpjs.com/) as an automated workflow to compile it st
 
 
       +-- gulpfile.js
-      +-- dev
+      +-- dev  # contains development codes
          |   +-- scripts
          |   +-- scss
-         +-- dist
+      +-- dist # compiled files/assets used by the theme
          |   +-- css
          |   +-- js
          |   +-- img
