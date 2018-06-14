@@ -4,6 +4,8 @@ _bourbon is a blank child theme for [_dash](https://github.com/marcelbadua/_dash
 
 It uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its styles and scripts. It uses [Bourbon](https://www.bourbon.io/) as it's SASS toolset. 
 
+## Theme folder Structure
+
       +-- gulpfile.js   # gulp.js tasks
       +-- dev     # contains development codes needed to compile assets
       |     +-- scripts
@@ -15,7 +17,15 @@ It uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its 
       |     +-- js
       |     +-- img
 
+## Prerequistes
+
+Gulp is a command line tool, so you should be familiar working in terminal. In order to use Gulp you need to have [Node.js]https://nodejs.org/en/ installed on your system.
+
 ---
+
+## Reads
+
+ 1. WordPress Pre-Built vs. Custom Theme - http://lumina.nyc/wordpress-pre-built-vs-custom-theme/
 
 If you like and using this plugin, feel free to send me a hi, I would really appreciate that.
 
