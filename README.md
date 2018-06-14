@@ -1,8 +1,8 @@
 # _bourbon 2.0.1
 
-_bourbon is a blank child theme for [_dash](https://github.com/marcelbadua/_dash), you need to have _dash also installed. _bourbon uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its styles and scripts. It uses [Bourbon](https://www.bourbon.io/) as it's SASS toolset. 
+**_bourbon** is a blank child theme for [_dash](https://github.com/marcelbadua/_dash), you need to have **_dash** also installed. **_bourbon** uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its styles and scripts. It uses [Bourbon](https://www.bourbon.io/) as it's SASS toolset. 
 
-## Theme folder Structure
+## Theme Folder Structure
 
       +-- gulpfile.js   # gulp.js tasks
       +-- dev     # contains development codes needed to compile assets
