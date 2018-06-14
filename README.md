@@ -19,7 +19,13 @@ It uses [Gulp.js](https://gulpjs.com/) as its automated workflow to compile its 
 
 ## Prerequistes
 
-Gulp is a command line tool, so you should be familiar working in terminal. In order to use Gulp you need to have [Node.js]https://nodejs.org/en/ installed on your system.
+Gulp is a command line tool, so you should be familiar working in terminal. In order to use Gulp you need to have [Node.js](https://nodejs.org/en/) installed on your system.
+
+## Commands
+
+To start a localhost
+
+      gulp serve
 
 ---
 
