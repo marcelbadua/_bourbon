@@ -26,21 +26,14 @@ _bourbon is a blank child theme for [_dash](https://github.com/marcelbadua/_dash
 
 On your terminal, go to the _bourbon folder.
 
-To compile styles
-
-      gulp styles
-
-To compile scripts
-
-      gulp scripts
-
-To start a localhost and monitors dev file chnges (for working seamingly while editing and refreshing browser)
-
-      gulp serve
+ - `gulp styles` - To compile styles 
+ - `gulp scripts` - To compile scripts 
+ - `gulp serve` - To start a localhost and monitors dev file chnges (for working seamingly while editing and refreshing browser)
       
 ## Reads
 
 1. WordPress Pre-Built vs. Custom Theme - http://lumina.nyc/wordpress-pre-built-vs-custom-theme/
+1. Gulp, SASS, Bourbon, Neat & BrowserSync Boilerplate - http://meredithunderell.com/gulp-sass-bourbon-neat-browsersync-boilerplate/
 
 ---
 
