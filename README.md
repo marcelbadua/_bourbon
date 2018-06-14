@@ -6,13 +6,13 @@ It uses [Gulp.js](https://gulpjs.com/) as an automated workflow to compile it st
 
 
 
-+-- _config.yml
-+-- _dev
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _dist
-|   +-- footer.html
-|   +-- header.html
+   +-- _config.yml
+   +-- _dev
+   |   +-- begin-with-the-crazy-ideas.textile
+   |   +-- on-simplicity-in-technology.markdown
+   +-- _dist
+   |   +-- footer.html
+   |   +-- header.html
 
 
 ---
