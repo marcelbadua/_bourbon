@@ -19,7 +19,7 @@ _bourbon is a blank child theme for [_dash](https://github.com/marcelbadua/_dash
 
 1. A local server to build your theme (MAMP, WAMP, XAMPP, Vagrant) - its best pracice to work on a local copy/clone of your website.
 1. Gulp is a command line tool, so you should be familiar working in terminal. In order to use Gulp you need to have [Node.js](https://nodejs.org/en/) installed on your system.
-1. Globally install Gulp
+1. Globally install Gulp `npm install gulp-cli -g`
 1. Install NPM dependencies under _bourbon folder `npm install`
 
 ## Commands
