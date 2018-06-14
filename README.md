@@ -1,8 +1,6 @@
 # _bourbon 2.0.0
 
-Child theme for _dash blank theme
-
-Uses bourbon for CSS preprocessor.
+_bourbon is a child theme for [_dash](https://github.com/marcelbadua/_dash) which uses [Bourbon](https://www.bourbon.io/) as it's SASS toolset. You will also need to have [Gulp.js](https://gulpjs.com/) for you to compile 
 
 ---
 
