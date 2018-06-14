@@ -23,10 +23,17 @@ Gulp is a command line tool, so you should be familiar working in terminal. In o
 
 ## Commands
 
-To start a localhost
+To start a localhost and monitors dev file chnges (for working seamingly while editing and refreshing browser)
 
       gulp serve
 
+Compile styles
+
+      gulp styles
+
+Compile scripts
+
+      gulp scripts
 ---
 
 ## Reads
